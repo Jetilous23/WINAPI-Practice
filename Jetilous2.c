@@ -2,8 +2,8 @@
 
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) {
-	static int a,d[100],f[100],g,h;  //Dynamic Allocation saves energy because it reduces unused segment. But, it takes more energy as it has to check every time
-	static HDC b;  //By setting static, the system could save energy because it does not repeat create and remove. Or, they can be set on global => Energy efficiency
+	static int a,d[100],f[100],g,h; 
+	static HDC b;  
 	static PAINTSTRUCT c;
 	
 	switch(Message) {
