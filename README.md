@@ -1,1 +1,1 @@
-Painting basic using WINAPI
+Painting basic using WINAPI (Creating red dot)
